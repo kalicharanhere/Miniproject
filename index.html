@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Move</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/c85df1af6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg">
+        <!-- Left -->
+        <div
+          class="collapse navbar-collapse order-lg-1 order-3 navigation-menu"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./properties.html">Buy </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./properties.html">Rent </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./properties.html">Sell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#">Agent Finder</a>
+            </li>
+          </ul>
+        </div>
+        <!-- left -->
+        <a class="navbar-brand order-1 mr-lg-0 display-4" href="./index.html">
+          Real Move
+        </a>
+        <button
+          class="navbar-toggler order-2"
+          type="button"
+          data-toggle="collapse"
+          data-target=".navigation-menu"
+        >
+          <i class="fas fa-bars fa-lg"> </i>
+        </button>
+        <!-- Right -->
+        <div
+          class="collapse navbar-collapse order-lg-3 order-4 navigation-menu"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./advertise.html">Advertise </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./help.html">Help </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="./login.html"> Log in </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <div class="jumbotron text-center">
+      <div class="container" id="container-jumbotron">
+        <h1 class="display-1" id="home-text">Change starts here</h1>
+        <div class="input-group input-group-lg mt-5 mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter address, city or zipcode"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <div class="input-group-append">
+            <button class="btn" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="act-text-container">
+      <div class="text-center text-light display-4" id="act-text">
+        Whether you’re buying, selling or renting, we can help you move forward.
+      </div>
+
+      <div class="card-deck container mx-auto my-3">
+        <div class="card p-2">
+          <img
+            class="card-img-top"
+            src="./images/pexels-binyamin-mellish-106399.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Buy a home</h5>
+            <p class="card-text lead">
+              Find your place with an immersive photo experience and the most
+              listings, including things you won't find anywhere else.
+            </p>
+            <a href="./properties.php" class="btn">Search homes</a>
+          </div>
+        </div>
+        <div class="card p-2">
+          <img
+            class="card-img-top"
+            src="./images/phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Sell a home</h5>
+            <p class="card-text lead">
+              Whether you get a cash offer through Real Move or choose to sell
+              traditionally, we can help you navigate a successful sale
+            </p>
+            <a href="./properties.php" class="btn">See your options</a>
+          </div>
+        </div>
+        <div class="card p-2 bg-transparent">
+          <img
+            class="card-img-top"
+            src="./images/todd-kent-178j8tJrNlc-unsplash.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center text-light">Rent a home</h5>
+            <p class="card-text lead text-light">
+              We're creating a seamless online experience- from shopping on the
+              largest rental network, to applying, to paying rent
+            </p>
+            <a href="./properties.php" class="btn">Find Rentals</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-lg-4 d-none d-md-block">
+        <div class="img-why">
+          <img
+            
+            src="./images/kirill-9uH-hM0VwPg-unsplash.jpg"
+            class="img-fluid max-width:100% h-auto"
+          />
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="display-4" id="why-title">Why Real Move?</div>
+        <div class="lead" id="why-text">
+          We create innovative, design-focused modular architecture. With a
+          focus on quality and sustainability, our studios are handcrafted with
+          you in mind. We offer a turnkey solution where each of our projects is
+          designed for your individual requirements. Authentic collaboration is
+          the key to our success.
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="./images/kirill-9uH-hM0VwPg-unsplash.jpg"
+            class="img-fluid mb-3"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="display-4" id="why-title">Why Real Move?</div>
+          <div class="lead" id="why-text">
+            We create innovative, design-focused modular architecture. With a
+            focus on quality and sustainability, our studios are handcrafted
+            with you in mind. We offer a turnkey solution where each of our
+            projects is designed for your individual requirements. Authentic
+            collaboration is the key to our success.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark text-light">
+      <div class="container mb-2">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="display-4 mt-3" id="proud-title">
+              Proud and Dedicated
+            </div>
+            <div class="lead mt-4" id="proud-text">
+              We are proud of our dedicated team, all of whom are committed to
+              ensuring that every detail is taken care of. Upon completion of
+              your project, you will be issued with certification by our
+              chartered engineer. MOA has moved away from traditional building
+              techniques. Instead we have created a seamless modular building
+              process, that is both innovative and non-invasive. The
+              installation of your garden studio is quick and hassle-free,
+              taking on average 7 working days to complete.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-why">
+              <img
+                src="./images/roberto-nickson-rEJxpBskj3Q-unsplash.jpg"
+                class="img-fluid mt-5 mb-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Listings</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Advertise</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Real Move</h3>
+              <p>
+                Real Move brokerage is a firm that employs a team of real state
+                agents (realtors) who help facilitate a transaction between the
+                buyers and sellers of property. Their job is to represent either
+                party and help them achieve a purchase or sale with the best
+                possible terms.
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a
+              ><a href="#"><i class="fab fa-instagram"></i></a
+              ><a href="#"><i class="fab fa-twitter"></i></a
+              ><a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Real Move © 2021</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
